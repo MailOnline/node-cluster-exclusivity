@@ -13,6 +13,10 @@
   ],
   "author": "Chris Flook",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glasseyes42/node-cluster-exclusivity.git"
+  },
   "dependencies": {
     "lodash": "^2.4.1",
     "redis": "^0.12.1",
