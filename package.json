@@ -1,0 +1,21 @@
+{
+  "name": "cluster-exclusivity",
+  "version": "1.0.0",
+  "description": "Cluster wide semaphore using redis. Enables redundancy with exclusive work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cluster",
+    "semaphore",
+    "exclusive"
+  ],
+  "author": "Chris Flook",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "redis": "^0.12.1",
+    "uuid": "^2.0.1"
+  }
+}
