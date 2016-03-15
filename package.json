@@ -1,6 +1,6 @@
 {
-  "name": "cluster-exclusivity",
-  "version": "1.0.0",
+  "name": "cluster-exclusivity-2",
+  "version": "2.0.0",
   "description": "Cluster wide semaphore using redis. Enables redundancy with exclusive work.",
   "main": "index.js",
   "scripts": {
@@ -15,11 +15,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/glasseyes42/node-cluster-exclusivity.git"
+    "url": "https://github.com/MailOnline/node-cluster-exclusivity.git"
   },
   "dependencies": {
     "lodash": "^2.4.1",
-    "redis": "^0.12.1",
+    "redis": "^2.5.1",
     "uuid": "^2.0.1"
   }
 }

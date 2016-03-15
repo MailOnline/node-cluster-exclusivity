@@ -52,7 +52,7 @@ function bootstrap (options) {
       }
 
 
-      var args = [sha, 1, [uuid], wrapped];
+      var args = [sha, 1, uuid, wrapped];
 
       redis.evalsha.apply(redis, args);
     }
